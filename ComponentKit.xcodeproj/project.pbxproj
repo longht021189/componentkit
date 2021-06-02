@@ -6004,6 +6004,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-implicit-retain-self",
+				);
 				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Debug;
@@ -6016,6 +6020,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-implicit-retain-self",
+				);
 				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
